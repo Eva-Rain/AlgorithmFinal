@@ -7,13 +7,18 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string[] sourceArray = {"Hello", "2", "world", ":-)" };
+
+using System.ComponentModel.Design;
+
+string[] sourceArray = {"Hello", "my", "solution", "is", "finally", "working", ":-)", "Send", "help","for", "an", "ant", "to", "croos", "the", "road", "Thank", "you" };
 string[] newArray = FormNewArray(size:DecideSizeNewArray(sourceArray), sar:sourceArray);
 PrintArray(sonar:sourceArray);
 PrintArray(sonar:newArray);
 
+//Расшифровка сокращений:
 //sar - size of array
 //sonar - size of new array
+//SolAr - solution array
 
 int DecideSizeNewArray(string[] sar)
 {
@@ -27,17 +32,17 @@ int DecideSizeNewArray(string[] sar)
 string[] FormNewArray(int size, string[] sar)
 {
     int position = 0;
-    string[] threeArr = new string[size];
+    string[] SolAr = new string[size];
     for (int i = 0; i < sar.Length; i++)
     {
         if (sar[i].Length <= 3)
         {
-            threeArr[position] = sar[i];
+            SolAr[position] = sar[i];
             position++;
         }
     }
 
-    return threeArr;
+    return SolAr;
 }
 
 void PrintArray(string[] sonar)
