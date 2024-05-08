@@ -1,0 +1,4 @@
+C:\Users\123\CODING\FinalAlgos\obj\Debug\net8.0\FinalAlgos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\123\CODING\FinalAlgos\obj\Debug\net8.0\FinalAlgos.AssemblyInfoInputs.cache
+C:\Users\123\CODING\FinalAlgos\obj\Debug\net8.0\FinalAlgos.AssemblyInfo.cs
+C:\Users\123\CODING\FinalAlgos\obj\Debug\net8.0\FinalAlgos.csproj.CoreCompileInputs.cache
