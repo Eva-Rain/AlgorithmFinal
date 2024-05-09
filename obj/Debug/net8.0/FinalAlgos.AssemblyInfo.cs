@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FinalAlgos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e36604517c663de1f2db7167e0d77d648bdfbee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a8474ef93a6ebd45b70ddf7f71aa37ae664501a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FinalAlgos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FinalAlgos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
